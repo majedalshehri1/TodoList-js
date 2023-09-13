@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/check.png" type="image/icon type">
+    <title>todo list</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- EXTERNAL LIBRARIES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+</head>
+<body>
+    <div style="direction: rtl;">
+        <!-- CENTER DIV -->
+        <div style="display: flex; justify-content: center; align-items: center;">
+
+            <!-- TASKS TABLE -->
+            <div class="tasks-table" style="border-radius: 30px;">
+
+                <!-- HEADER -->
+                <div style="width: 100%; text-align: center; background-color: rgb(92, 52, 155); color: white; padding-top: 8px; padding-bottom: 8px; border-radius: 10px 10px 0 0;">
+                    <h1 style="display: inline;">مهامي</h1>
+                    <button id="add-btn" class="circular" style="float: right; background: white; margin-right: 10px;">
+                        <span class="material-symbols-outlined">
+                            add
+                        </span>
+                    </button>
+                </div>
+                <!--// HEADER //-->
+
+                <!-- TASKS -->
+                <div  id="tasks" style="padding: 30px;">
+
+                    <!-- TASK -->
+                    <div class="task" style="border-radius: 10px; border: 1px solid rgba(0, 0, 0, 0.19);">
+
+                        <!-- TASK INFO -->
+                        <div style="width: 70%;">
+                            <h2>قراءة كتاب</h2>
+
+                            <div>
+
+                                <span class="material-symbols-outlined">
+                                    calendar_month
+                                </span>
+                                <span>
+                                    1/1/2030
+                                </span>
+                            </div>
+                        </div>
+                        <!--// TASK INFO //-->
+
+                        <!-- TASK ACTIONS -->
+                        <div style="display: flex; justify-content: space-between;align-items: center; width: 20%;">
+                            <button class="circular" style="background-color: rgb(114, 0, 0); color: white;">
+                                <span class="material-symbols-outlined">
+                                    delete
+                                </span>
+                            </button>
+
+                            <button class="circular" style="background-color: rgb(0, 150, 30); color: white;">
+                                <span class="material-symbols-outlined">
+                                    done
+                                </span>
+                            </button>
+
+                            <button class="circular" style="background-color: rgba(0, 16, 197, 0.692); color: white;">
+                                <span class="material-symbols-outlined">
+                                    edit
+                                </span>
+                            </button>
+
+                        </div>
+                        <!--// TASK ACTIONS //-->
+
+                    </div>
+                    <!--// TASK //-->
+
+                    <!-- TASK -->
+                    <div class="task" style="border-radius: 10px; border: 1px solid rgba(0, 0, 0, 0.19);">
+
+                        <!-- TASK INFO -->
+                        <div style="width: 70%;">
+                            <h2>قراءة كتاب</h2>
+
+                            <div>
+
+                                <span class="material-symbols-outlined">
+                                    calendar_month
+                                </span>
+                                <span>
+                                    1/1/2030
+                                </span>
+                            </div>
+                        </div>
+                        <!--// TASK INFO //-->
+
+                        <!-- TASK ACTIONS -->
+                        <div style="display: flex; justify-content: space-between;align-items: center; width: 20%;">
+                            <button class="circular" style="background-color: rgb(114, 0, 0); color: white;">
+                                <span class="material-symbols-outlined">
+                                    delete
+                                </span>
+                            </button>
+
+                            <button class="circular" style="background-color: rgb(0, 150, 30); color: white;">
+                                <span class="material-symbols-outlined">
+                                    done
+                                </span>
+                            </button>
+
+                            <button class="circular" style="background-color: rgba(0, 16, 197, 0.692); color: white;">
+                                <span class="material-symbols-outlined">
+                                    edit
+                                </span>
+                            </button>
+
+                        </div>
+                        <!--// TASK ACTIONS //-->
+
+                    </div>
+                    <!--// TASK //-->
+
+                    <!-- TASK -->
+                    <div class="task" style="border-radius: 10px; border: 1px solid rgba(0, 0, 0, 0.19);">
+
+                        <!-- TASK INFO -->
+                        <div style="width: 70%;">
+                            <h2>قراءة كتاب</h2>
+
+                            <div>
+                                
+                                <span class="material-symbols-outlined">
+                                    calendar_month
+                                </span>
+
+                                <span>
+                                    1/1/2030
+                                </span>
+                            </div>
+                        </div>
+                        <!--// TASK INFO //-->
+
+                        <!-- TASK ACTIONS -->
+                        <div style="display: flex; justify-content: space-between;align-items: center; width: 20%;">
+                            <button class="circular" style="background-color: rgb(114, 0, 0); color: white;">
+                                <span class="material-symbols-outlined">
+                                    delete
+                                </span>
+                            </button>
+
+                            <button class="circular" style="background-color: rgb(0, 150, 30); color: white;">
+                                <span class="material-symbols-outlined">
+                                    done
+                                </span>
+                            </button>
+
+                            <button class="circular" style="background-color: rgba(0, 16, 197, 0.692); color: white;">
+                                <span class="material-symbols-outlined">
+                                    edit
+                                </span>
+                            </button>
+
+                        </div>
+                        <!--// TASK ACTIONS //-->
+
+                    </div>
+                    <!--// TASK //-->
+
+                </div>
+                <!--// TASKS //-->
+            </div>
+            <!--// TASKS TABLE //-->
+
+        </div>
+        <!--// CENTER DIV //-->
+
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script src="js/main.js"></script>
+    <!--// JAVASCRIPT //-->
+</body>
+</html>
